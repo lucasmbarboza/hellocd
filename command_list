@@ -1,0 +1,2 @@
+sudo docker run --rm -it -v /home/lucas/ci-cd:/app -P -v m2:/root/.m2 maven mvn spring-boot:run -f /app/pom.xml
+sudo docker run --rm -it -v /home/lucas/hellocd:/app -P -v m2:/root/.m2 maven mvn spring-boot:run -f /app/pom.xml
